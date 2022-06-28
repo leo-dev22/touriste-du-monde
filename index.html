@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="fr" id="html" class="xxxlarge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Guide du Cameroun avec toutes les informations nécessaires pour faire du tourisme écologique.Découvrez l'Afrique en miniature; visitez le Cameroun "
+    />
+    <meta
+      name="keywords"
+      content="Cameroon,Cameroun, Afrique,tourisme,Afrique en miniature,site touristique,travels to africa"
+    />
+    <title>
+      Touristic Kamer - Guide de voyage et de tourisme, visitons l'Afrique en
+      miniature
+    </title>
+
+    <!-- <link rel="stylesheet" href="./user_page.html" /> -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body onload="Horloge(),languagesList()">
+    
+      <form action="" method="post" name="form">
+      il est exactement:
+      <input type="text" name="pendule" id="pendule" size="12">
+    </form>
+    
+
+    <header class="header-lapt" id="header-lapt">
+      <nav class="nav-top">
+        <div class="header-left">
+          <div class="logo">
+            <a href="#" class="logo_a"> 
+              <svg height="60" width="300">
+              <rect class="logo_rect" height="60" width="300"></rect>
+            </svg>
+            <div class="logo_text">Tourist Tour</div>
+          </a>
+          
+          </div>
+          <div class="title">
+            <a href="#">Cameroun</a>
+          </div>
+        </div>
+
+        <div class="header-right">
+          <ul class="ul-header">
+            <li class="languages" id="languages">
+              <select name="lang" id="lang" onchange="languagesList()">
+              <option value="Français" >Francais</option>
+              <option value="Anglais">Anglais</option>         
+              <option value="Allemand">Allemand</option>
+              <option value="Italien">Italien</option>
+              </select>          
+
+            </li>
+            <li class="currency" id="currency">
+              <select name="currency" id="currency" onchange="languagesList()">
+              <option value="dollar americain">USD</option>
+              <option value="EURO">EURO</option>
+              <option value="FCFA">FCFA</option>
+              </select>                
+                  
+            </li>
+
+              <div class="dropdown-currency-header">
+                <span
+                  data-value="USD"
+                  id="currencyButton"
+                  data-abbreviation="US$"
+                  >USD</span
+                >
+              </div>
+              <div class="dropdown-currency-bottom">
+                <ul>
+                  <li>
+                    <span
+                      data-value="EUR"
+                      id="currencyBtn"
+                      data-abbreviation="E"
+                      >EURO
+                    </span>
+                  </li>
+                  <li class="--active">
+                    <span>
+                      <span
+                        data-value="USD"
+                        id="currencyButton2"
+                        data-abbreviation="US$"
+                        >USD</span
+                      >
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </li> 
+            <li class="user-page">
+              <div class="user">
+                <a href="user_page.html" title="Mes réservations"
+                  ><span></span>
+                  <img src="./media/1x/outline_person_outline_black_24dp.png" alt="" srcset="">
+                  </span></a>
+                
+              </div>
+            </li>
+            <li class="help-page">
+              <a href="help_page.html" title="contactez notre service d'accueil">
+                
+                  <span>
+                    <img src="/media/1x/outline_contact_support_black_24dp.png" alt="" srcset="">
+                  </span>
+                
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <nav class="nav-bottom">
+        <ul class="nav-botton">
+          <li class="bottom-list1">
+            <a href="/" title="Guide du cameroun">
+             <span> Guide touristique </span></a>
+            <div class="guide" >
+              <ul class="guide-grid" >
+                <li class="guide-1">
+                  <div class="guide-11">
+                   <a href="#" class="icon_info111" title="Informations">
+                    <i>
+                    <img src="./media/icons8-info-50.png" height="40px" width="40px" 
+                     alt=""> 
+                  </i>
+                  </a>
+                 
+                 <a href="/informations_generales" class="guide-info111">
+                    <span>INFORMATIONS</span>
+                    <!-- <span class="stage-three">Infos</span> -->
+                  </a>
+                 </div>
+
+                  <div class="info-content">
+                    <ul class="infos-content">
+                      <li>
+                        <a href="/planifier_votre_voyage">
+                          <span>
+                          Planifier votre voyage
+                          </span>
+                          <a
+                            href="#"
+                            class="arrow"
+                            title="planifier votre voyage"
+                          ></a>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/histoire"><span> Histoire</span></a>
+                      </li>
+                      <li>
+                        <a href="/photos"><span>Photos</span></a>
+                      </li>
+                      
+                      <li><a href="/informations_generales">
+                         <span>
+                           Tout montrer
+                         </span> </a></li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li class="guide-2">
+                  <div class="guide-22">
+                    <a href="#" class="icon_guide222" title="loisirs et intérêts">
+                     <i>
+                     <img src="./media/info.png" height="30px" width="30px" 
+                      alt="">
+                   </i>
+                   </a>
+                  
+                  <a href="/loisirs et intérêts" class="guide-info111">
+                     <span>LOISIRS ET INTERETS</span>
+                   </a>
+                  </div>
+                  </li>
+                <li class="guide-3">
+                  <div class="guide-33">
+                    <a href="#" class="icon_guide333" title="loisirs et intérêts">
+                     <i>
+                     <img src="./media/info.png" height="30px" width="30px" 
+                      alt="">
+                   </i>
+                   </a>
+                  
+                  <a href="/comment s'y rendre" class="guide-info111">
+                     <span>COMMENT Y ALLER</span>
+                   </a>
+                   <a href="#" class="arrow-open" title="comment s'y rendre"></a>
+                  </div> 
+
+                  <div class="content">
+                    <div class="close-container">
+                      <a href="#" title="fermer" class="close-icon">fermer</a>
+                    </div>
+
+                    <div class="body-content">
+                      <a href="/comment-y-aller" title="comment s'y rendre">comment y aller</a>
+                    </div>
+                    <ul class="list-content">
+                      <li>
+                        <a href="/aeroport-yaounde" title="Aéroport international  de Yaounde">aeroport de Yaounde</a>
+                      </li>
+
+                      <li>
+                        <a href="/aeroport-douala" title="Aéroport international de Douala">aeroport de Douala</a>
+                      </li>
+
+                      <li><a href="/comment-y-aller" title="tout montre">Tout montrer </a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="guide-4">
+                    <div class="guide-44">
+                    <a href="#" class="icon_guide444" title="loisirs et intérêts">
+                     <i>
+                     <img src="./media/info.png" height="30px" width="30px" 
+                      alt="">
+                   </i>
+                   </a>
+                  
+                  <a href="/Parcs touristiques" class="guide-info111">
+                     <span>PARCS TOURISTIQUES</span>
+                   </a>
+                  </div>
+                 </li>
+                <li class="guide-5">
+                    <div class="guide-55">
+                    <a href="#" class="icon_guide555" title="loisirs et intérêts">
+                     <i>
+                     <img src="./media/info.png" height="30px" width="30px" 
+                      alt="">
+                   </i>
+                   </a>
+                  
+                  <a href="/shopping" class="guide-info111">
+                     <span>SHOPPING</span>
+                   </a>
+                  </div>
+                  </li>
+                <li class="guide-6">
+                    <div class="guide-66">
+                    <a href="#" class="icon_guide666" title="loisirs et intérêts">
+                     <i>
+                     <img src="./media/info.png" height="30px" width="30px" 
+                      alt="">
+                   </i>
+                   </a>
+                  
+                  <a href="/restauration du terroir" class="guide-info111">
+                     <span>RESTAURANT</span>
+                   </a>
+                  </div>
+                  </li>
+                <li class="guide-7">
+                    <div class="guide-77">
+                    <a href="#" class="icon_guide777" title="loisirs et intérêts">
+                     <i>
+                     <img src="./media/info.png" height="30px" width="30px" 
+                      alt="">
+                   </i>
+                   </a>
+                  
+                  <a href="/loisirs et intérêts" class="guide-info111">
+                     <span>HOTELS/span>
+                   </a>
+                  </div>
+                  </li>
+                <li class="guide-8">
+                    <div class="guide-88">
+                    <a href="#" class="icon_guide888" title="loisirs et intérêts">
+                     <i>
+                     <img src="./media/info.png" height="30px" width="30px" 
+                      alt="">
+                   </i>
+                   </a>
+                  
+                  <a href="/plan" class="guide-info111">
+                     <span>PLAN</span>
+                   </a>
+                  </div>
+                  </li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="bottom-list2">
+            <a
+              href="/activities"
+              title="excursions et visites guidées au cameroun"
+            >
+            <span>     
+            Excursions et Visites guidées
+            </span></a>
+          </li>
+          <li class="bottom-list3">
+            <a href="/transfert"> 
+            <span>
+            Transfert aèroport</a></li>
+          </span>
+
+          <li class="bottom-list4">             
+           <a href="#" title="Logement et Restaurant">  <span> Logement & Restaurant</span></a> 
+            <div class="logement">
+              <ul class="loge_rest">
+                <li>
+                  <a href="/hotels" title="hotels "><span>HOTELS</span> </a>
+                </li>
+                <li>
+                  <a href="/appartements" title="Appartements au choix ">
+                    <span> APPARTEMENTS</span>
+                  </a></li>
+                  <li>
+                  <a href="/restauration du terroir" title="restauration du terroir">
+                    <span> RESTAURANT</span>
+                  </a>
+
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="bottom-list5"><a href="/vols" title="vols pour le cameroun">             
+           <span> vols </span></a>
+          </li>
+          
+        </ul>
+      </nav>
+    </header>
+ <!-- --------xxxx  HEADER  xxxxx--------    -->
+   
+ <main></main>
+
+ 
+<!-- ---------  FOOTER   ----------     -->
+
+    <footer class="l-footer">
+      <div class="l-footer-1" >
+        <div class="l-footer-block">
+
+          <div class="l-footer-title">Cameroun</div>
+          <ul>
+            <li><a href="/guide-touristique" title="Guide-touristique"> Guide touristique</a></li>
+            <li><a href="/excursions-visites-guidées" title="Excursion et visites guidées"> Excursions et visites guidées</a></li>
+            <li><a href="/transfert-aéroport" title="Transfert de l'aéroport">Transfert d'aéroport</a></li>
+            <li><a href="/Logement" title="Logement ">Logement</a></li>
+            <li><a href="/location-de-voitures" title="Location de voitures"> Location de voitures</a></li>
+            <li><a href="/vols" title=" vols pour le Cameroun">Vols</a></li>
+            <li><a href="/Restauration" title="Restauration">Restauration</a></li>
+          </ul>
+        </div>
+        
+        <div class="l-footer-block">
+          <div class="title-footer">Tourist Tour</div>
+          <ul>
+            <li><a href="#" title="Destinations">Destinations</a></li>
+            <li><a href="#" title="Qui sommes-nous?"</a>Qui sommes-nous?</li>
+            <li><a href="#" title="blog de Tourist Tour ">Tourist Tour Blog</a></li>
+          </ul>
+        </div>
+      
+      <div class="l-footer-block">
+        <div class="title-footer" title="service client">Service client</div>
+        <ul>
+          <li><a href="/contact" title="contactez Tourist Tour">contact</a></li>
+          <li><a href="#" title="conditions générales de Tourist Tour">Conditions Générales</a></li>
+          <li><a href="#" title="Avis légal">Avis légal</a></li>
+          <li><a href="#" title="politique de confidentialité">politique de confidentialité</a></li>
+          <li><a href="#" title="cookies">cookies</a></li>
+          <li><a href="#" title="options de consentement">options de consentement</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="l-footer-2"></div>
+    <div class="l-footer-3"></div>
+    </footer>
+    
+    <script src="/index.js"></script>
+  </body>
+</html>
