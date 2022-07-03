@@ -15,11 +15,11 @@ div {
 }
 
 span {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 form {
-  border: 4px solid rgba(247, 7, 87, 0.8823529412);
+  border: 4px solid rgb(248, 7, 109);
   position: absolute;
   top: 5%;
   left: 50%;
@@ -39,7 +39,7 @@ header .nav-top {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgb(255, 255, 255);
   margin-bottom: 10px;
   padding-bottom: 5px;
 }
@@ -61,8 +61,8 @@ header .nav-top .header-left .logo:hover header .nav-top .header-left .logo_rect
 }
 header .nav-top .header-left .logo_rect {
   fill: transparent;
-  stroke: rgba(220, 20, 60, 0.582);
-  border-bottom: 6px solid rgba(220, 20, 60, 0.582);
+  stroke: rgb(248, 7, 109);
+  border-bottom: 6px solid rgb(248, 7, 109);
   transition: stroke-width 2s, stroke-dashoffset 2s, stroke-dasharray 2s;
   stroke-dasharray: 210 150;
   stroke-dashoffset: -474;
@@ -79,14 +79,14 @@ header .nav-top .header-left .logo_text {
   top: -50px;
 }
 header .nav-top .header-left .logo a {
-  color: rgba(247, 7, 87, 0.8823529412);
+  color: rgb(248, 7, 109);
 }
 header .nav-top .header-left .title {
   font-weight: 200;
   font-size: 1.8rem;
 }
 header .nav-top .header-left .title a {
-  color: rgba(0, 0, 0, 0.911);
+  color: rgb(33, 32, 32);
 }
 header .nav-top .header-left .title a:hover {
   color: green;
@@ -99,10 +99,10 @@ header .nav-top .header-right .languages {
 header .nav-top .header-right .languages select {
   font-size: 1.05rem;
   border: none;
-  border-left: 4px solid rgba(220, 20, 60, 0.582);
+  border-left: 4px solid rgb(248, 7, 109);
 }
 header .nav-top .header-right .languages select:hover {
-  background: rgba(36, 34, 34, 0.479);
+  background: rgba(161, 133, 133, 0.782);
 }
 header .nav-top .header-right .currency {
   position: absolute;
@@ -112,10 +112,10 @@ header .nav-top .header-right .currency {
 header .nav-top .header-right .currency select {
   font-size: 1.05rem;
   border: none;
-  border-left: 4px solid rgba(220, 20, 60, 0.582);
+  border-left: 4px solid rgb(248, 7, 109);
 }
 header .nav-top .header-right .currency select:hover {
-  background: rgba(36, 34, 34, 0.479);
+  background: rgba(161, 133, 133, 0.782);
 }
 header .nav-top .header-right .user-page {
   position: absolute;
@@ -125,7 +125,7 @@ header .nav-top .header-right .user-page {
   font-size: 1.15rem;
 }
 header .nav-top .header-right .user-page:hover {
-  background: rgba(36, 34, 34, 0.479);
+  background: rgba(161, 133, 133, 0.782);
 }
 header .nav-top .header-right .help-page {
   position: absolute;
@@ -136,10 +136,10 @@ header .nav-top .header-right .help-page {
   font-size: 1.15rem;
 }
 header .nav-top .header-right .help-page:hover {
-  background: rgba(36, 34, 34, 0.479);
+  background: rgba(161, 133, 133, 0.782);
 }
 header .nav-bottom {
-  background: rgba(247, 7, 87, 0.8823529412);
+  background: rgb(248, 7, 109);
   height: 55px;
 }
 header .nav-bottom .nav-botton {
@@ -271,10 +271,45 @@ footer {
   height: 100vh;
 }
 footer .section-one {
-  background-color: rgba(247, 7, 87, 0.8823529412);
+  height: 90%;
+  background-color: rgb(248, 7, 109);
+}
+footer .section-one .div-section1 {
+  height: 60%;
+  padding: 35px 25px;
   display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: 5px rgb(255, 221, 0) solid;
+}
+footer .section-one .div-section1 ul {
+  margin-top: 30px;
+}
+footer .section-one .div-section1 li {
+  margin-bottom: 20px;
+}
+footer .section-one .div-section1 li a {
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+}
+footer .section-one .div-section1 .footer-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: normal;
+}
+footer .section-one .div-section2 {
+  height: 20%;
+}
+footer .section-one hr {
+  height: 1px;
+  width: min(100% - 2rem, 70rem);
+  margin-inline: auto;
+}
+footer .section-one .div-section3 {
+  height: 20%;
 }
 footer .section-two {
-  background-color: yellow;
+  height: 10%;
+  background-color: rgb(213, 0, 88);
   display: flex;
 }/*# sourceMappingURL=main.css.map */
