@@ -19,9 +19,9 @@ Comme utilisateur, je voudrais être capable d'ajouter les élements dans mon ch
 #### Page d'accueil
 
 1. [x] Faire la principlale page d'acceuil
-   1.1 [x] Faire la barre de navigation
-   1.2 [x] Faire le main
-   1.3 [x] faire le footer
+2. [x] Faire la barre de navigation
+3. [x] Faire le main
+4. [x] faire le footer
 
 
 
