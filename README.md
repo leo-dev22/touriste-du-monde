@@ -21,7 +21,9 @@ Comme utilisateur, je voudrais être capable d'ajouter les élements dans mon ch
 1. [x] Faire la principlale page d'acceuil
 2. [x] Faire la barre de navigation
 3. [x] Faire le main
-4. [x] faire le footer
+4. [x] Faire le footer
+5. [] Faire la fonctionnalité du boutton de retour en haut de page
+6. [] Faire défiler les photos de type carousel
 
 
 
